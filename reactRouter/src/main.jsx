@@ -12,7 +12,7 @@ const router = createBrowserRouter(
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/user/:userid' element={<user/>}/>
     <Route 
-    loader = {path='/' element={<Layout/>}/>
+    loader = {githubInfoLoader}{path='/' element={<Layout/>}/>
     </Route>
   )
 )
