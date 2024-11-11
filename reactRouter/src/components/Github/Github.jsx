@@ -10,6 +10,7 @@ function Github() {
     </div>
   )
 }
+
 export default Github
 
 export const GithubInfoLoader = async () => {
