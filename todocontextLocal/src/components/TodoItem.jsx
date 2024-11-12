@@ -61,3 +61,5 @@ function TodoItem({todo}) {
       </div>
   );
 }
+
+export default TodoItem
